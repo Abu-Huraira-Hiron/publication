@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDF</title>
+    <link rel="stylesheet" href="pdf.css">
+</head>
+<body>
+    <header>
+        <h1>PDF Reader</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="pdf.html">PDF</a></li>
+                <li><a href="pdf.html">Blog</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Register to Use the PDF Reader</h2>
+        <form id="registrationForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <button type="submit">Register</button>
+        </form>
+        <div id="pdfViewer" style="display: none;">
+            <h3>PDF Viewer</h3>
+            <p>Your PDF will be displayed here.</p>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 PDF Reader and Blog</p>
+    </footer>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
+

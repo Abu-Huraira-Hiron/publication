@@ -1,0 +1,25 @@
+#blogPosts {
+    display: flex;
+    flex-direction: column;
+}
+
+.blogPost {
+    border-bottom: 1px solid #ddd;
+    padding: 1em 0;
+}
+
+.blogPost h3 {
+    margin: 0 0 0.5em 0;
+}
+
+.blogPost p {
+    margin: 0;
+}
+
+#blogPostContent {
+    padding: 1em;
+}
+
+#blogPostContent h2 {
+    margin: 0 0 0.5em 0;
+}
